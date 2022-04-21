@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movement List</title>
+    <link rel="stylesheet" href="main.css"/>
+    <script src=
+    "https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.5/dist/html2canvas.min.js">
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Workout Planner</h1>
+        <form id="new-exercises-form">
+        <input 
+        type="text" 
+        id="new-exercises-name"
+        placeholder="Write the next exercise"/>
+        
+        <input 
+        type="number" 
+        id="new-exercises-set"
+        placeholder="How many set will you do?"/> 
+
+        <input type="submit"
+        id="new-exercises-submit"
+        value="Add Exercise"/>
+        </form>
+    </header>
+
+    <main >
+        <section class="exercises-list">
+        <h2>Exercises</h2>
+        <div id="exercises">
+            <!--<div class="exercise">
+                <div class="content">
+                    <input type="text" 
+                    class="text" 
+                    value="My Shiny exercise"
+                    />
+                    
+                </div>
+                <div class="action">
+                    <button class="edit">Edit</button>
+                    <button class="delete">Delete</button>
+                </div> 
+                
+            </div>-->
+        </div>
+        <br>
+        <br>
+        <button id="btnScreen" class="save">Screeshot</button>
+        
+        <button id="btnSave" class="save">Save Page</button>
+    </section>
+    </main>
+
+    <script src="main.js"></script>
+    
+</body>
+</html>
